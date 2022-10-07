@@ -1,0 +1,158 @@
+/* <!-- Tri tran, 11:02, 09-21-2022 --> */
+@font-face {
+    font-family: Font1;
+    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+}
+a:visited {
+    color: coral;
+}
+body a {
+    text-decoration: none;
+    color:coral;
+}
+body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+/* header with logo */
+#headerhighlighted {
+    background-color: rgb(221, 99, 55);
+    border: 2px #222;
+    color:#222;
+}
+header {
+    font-family:Verdana, Geneva, Tahoma, serif;
+    background-color: #222;
+    overflow: hidden;
+}
+#header {
+    padding-left: 30px;
+}
+.headertextes {
+    display: flex;
+    margin-left: 5%;
+    padding-top: 5px;
+    font-size: 30px;
+}
+a:active {
+    font-weight: bold;
+}
+header ul {
+    margin-left: 850px;
+    float: right 
+}
+header ul li {
+    float: left ;
+    list-style: none;
+    display: block;
+    padding: 0px 10px;
+    text-align: center;
+}
+header li a {
+    text-decoration: none;
+    color: #b3b3b3;
+    padding: 100% 15px 100%;
+}
+header ul li a:hover {
+    background-color: #333;
+    color:darksalmon;
+    opacity: 1;
+}
+/*Section*/
+#Section1 {
+    height: fit-content ;
+    text-align: center;
+    font-size: 45px;
+    background-image: url(./images/ezgif.jpg);
+    color: #000;
+    line-height: 1.5cm;
+    background-size: cover;
+    padding-top: 170px;
+    height:600px;
+    color: #fff;
+}
+.booking:hover{
+    background-color: #000;
+}
+.booking:active{
+    border-style:DOUBLE;
+}
+.booking {
+    background-color: #333;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color:coral;
+    max-width: 300px;
+    font-size: 40px;
+}
+/* section2 */
+.Textebox2 {
+    background-color: #222;
+    color:#fff;
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+    line-height: 1.5cm;
+}
+.Image2 {
+    float: left;
+    height: inherit;
+    width: 50%;
+}
+.image2 {
+    min-width: 100%;
+    height: inherit;
+}
+#section2 {
+    height: 600px;
+    font-size: 30px;
+}
+.class {
+    padding: 100px 50px;
+    height: 400px;
+}
+/* ------------------Section 3: the 3 grid thing--------------------- */
+.texte {
+    height: 600px;
+    background-color: #777;
+    color: #000;
+    text-align: center;
+    overflow: hidden;
+    font-weight: bold;
+}
+.row {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    justify-content:space-evenly;
+}
+.column1 {
+    width: 400px;
+    padding: 75px 30px;
+    max-height: fit-content;
+    line-height: 0.75cm;
+}
+.column2 {
+    width: 500px;
+    background-color: rgb(253, 121, 72);
+    height:500px;
+    padding: 75px 60px ;
+    max-height: fit-content;
+    line-height: 0.75cm;
+}
+/* ------------footer-------- */
+footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background: #000;
+    color:#fff;
+    padding: 20px;
+}
